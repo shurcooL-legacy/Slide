@@ -1,0 +1,2062 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Arcball">
+      <UniqueIdentifier>{da97838c-9fca-4441-a3b1-c72f086e19b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Bamboo">
+      <UniqueIdentifier>{7a603b04-97a8-4df9-ace3-bfc64a34d6d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ControlModes">
+      <UniqueIdentifier>{2d42361c-685f-40ba-8ead-aa0ad710f422}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ControlModules">
+      <UniqueIdentifier>{4ce8147c-cf24-4573-9146-16881b685ec0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FCollada">
+      <UniqueIdentifier>{9bace0fb-bb6c-48ab-a07a-ebd62b16ba6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FCollada\FArchiveXML">
+      <UniqueIdentifier>{aba4e00f-a045-4e94-a3ef-08dedf2c8434}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FCollada\FCDocument">
+      <UniqueIdentifier>{747b2c5f-8720-4e45-ad8a-126c317f8168}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FCollada\FMath">
+      <UniqueIdentifier>{2a78b6ef-2e46-43f8-8c8e-cdabfc6097b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FCollada\FUtils">
+      <UniqueIdentifier>{29e8e1c1-116c-4464-b64d-bb1787c943c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FCollada\LibXML">
+      <UniqueIdentifier>{6b0fedc8-bfdf-4eac-b74b-eb6d2e6de2cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FCollada\LibXML\include">
+      <UniqueIdentifier>{6ccee301-a3f9-41d7-86b6-2071b942cf57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FCollada\LibXML\include\libxml">
+      <UniqueIdentifier>{8b2a08a8-ffdc-46dd-83f4-ca1e37279241}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Input">
+      <UniqueIdentifier>{26d297fa-3942-4817-8961-29d508288b5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Models">
+      <UniqueIdentifier>{ff072f3a-3a3c-4aa5-86f6-066704d1c64c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shaders">
+      <UniqueIdentifier>{feff86fc-7030-43b5-8893-9ff7fab9d30e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Slide">
+      <UniqueIdentifier>{a149ab9b-8f94-463c-86c6-b3afb0de27c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Wm5">
+      <UniqueIdentifier>{e77b4797-9d12-4fb9-b261-69e1a09acfd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="glfw">
+      <UniqueIdentifier>{3ccdc058-50c2-499b-ad0c-f0688bf21e98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="glfw\win32">
+      <UniqueIdentifier>{36d06140-89b1-4873-8095-715a471ea03e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\ControlModes\ClassicMode.cpp">
+      <Filter>Source Files\ControlModes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ControlModes\ControlMode.cpp">
+      <Filter>Source Files\ControlModes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ControlModes\DepthIntervalsMode.cpp">
+      <Filter>Source Files\ControlModes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ControlModes\InputTestMode.cpp">
+      <Filter>Source Files\ControlModes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ControlModes\UnderCursorMode.cpp">
+      <Filter>Source Files\ControlModes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Bamboo\Bamboo.cpp">
+      <Filter>Source Files\Bamboo</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Bamboo\System.cpp">
+      <Filter>Source Files\Bamboo</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Arcball\Arcball.cpp">
+      <Filter>Source Files\Arcball</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ControlModules\ControlModule.cpp">
+      <Filter>Source Files\ControlModules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ControlModules\TwoAxisValuatorModule.cpp">
+      <Filter>Source Files\ControlModules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ControlModules\UnderCursorTranslationModule.cpp">
+      <Filter>Source Files\ControlModules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ControlModules\UnrealCameraModule.cpp">
+      <Filter>Source Files\ControlModules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FArchiveXML\FArchiveXML.cpp">
+      <Filter>Source Files\FCollada\FArchiveXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FArchiveXML\FAXAnimationExport.cpp">
+      <Filter>Source Files\FCollada\FArchiveXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FArchiveXML\FAXAnimationImport.cpp">
+      <Filter>Source Files\FCollada\FArchiveXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FArchiveXML\FAXCameraExport.cpp">
+      <Filter>Source Files\FCollada\FArchiveXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FArchiveXML\FAXCameraImport.cpp">
+      <Filter>Source Files\FCollada\FArchiveXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FArchiveXML\FAXColladaParser.cpp">
+      <Filter>Source Files\FCollada\FArchiveXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FArchiveXML\FAXColladaWriter.cpp">
+      <Filter>Source Files\FCollada\FArchiveXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FArchiveXML\FAXControllerExport.cpp">
+      <Filter>Source Files\FCollada\FArchiveXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FArchiveXML\FAXControllerImport.cpp">
+      <Filter>Source Files\FCollada\FArchiveXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FArchiveXML\FAXEmitterExport.cpp">
+      <Filter>Source Files\FCollada\FArchiveXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FArchiveXML\FAXEmitterImport.cpp">
+      <Filter>Source Files\FCollada\FArchiveXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FArchiveXML\FAXEntityExport.cpp">
+      <Filter>Source Files\FCollada\FArchiveXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FArchiveXML\FAXEntityImport.cpp">
+      <Filter>Source Files\FCollada\FArchiveXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FArchiveXML\FAXForceFieldExport.cpp">
+      <Filter>Source Files\FCollada\FArchiveXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FArchiveXML\FAXForceFieldImport.cpp">
+      <Filter>Source Files\FCollada\FArchiveXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FArchiveXML\FAXGeometryExport.cpp">
+      <Filter>Source Files\FCollada\FArchiveXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FArchiveXML\FAXGeometryImport.cpp">
+      <Filter>Source Files\FCollada\FArchiveXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FArchiveXML\FAXImportLinking.cpp">
+      <Filter>Source Files\FCollada\FArchiveXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FArchiveXML\FAXInstanceExport.cpp">
+      <Filter>Source Files\FCollada\FArchiveXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FArchiveXML\FAXInstanceImport.cpp">
+      <Filter>Source Files\FCollada\FArchiveXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FArchiveXML\FAXLightExport.cpp">
+      <Filter>Source Files\FCollada\FArchiveXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FArchiveXML\FAXLightImport.cpp">
+      <Filter>Source Files\FCollada\FArchiveXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FArchiveXML\FAXMaterialExport.cpp">
+      <Filter>Source Files\FCollada\FArchiveXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FArchiveXML\FAXMaterialImport.cpp">
+      <Filter>Source Files\FCollada\FArchiveXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FArchiveXML\FAXPhysicsExport.cpp">
+      <Filter>Source Files\FCollada\FArchiveXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FArchiveXML\FAXPhysicsImport.cpp">
+      <Filter>Source Files\FCollada\FArchiveXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FArchiveXML\FAXSceneExport.cpp">
+      <Filter>Source Files\FCollada\FArchiveXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FArchiveXML\FAXSceneImport.cpp">
+      <Filter>Source Files\FCollada\FArchiveXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDAnimated.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDAnimation.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDAnimationChannel.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDAnimationClip.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDAnimationClipTools.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDAnimationCurve.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDAnimationCurveTools.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDAnimationKey.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDAnimationMultiCurve.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDAsset.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDCamera.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDController.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDControllerInstance.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDControllerTools.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDEffect.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDEffectCode.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDEffectParameter.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDEffectParameterFactory.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDEffectParameterSampler.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDEffectParameterSurface.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDEffectPass.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDEffectPassShader.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDEffectPassState.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDEffectProfile.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDEffectProfileFX.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDEffectStandard.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDEffectTechnique.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDEffectTools.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDEmitter.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDEmitterInstance.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDEmitterObject.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDEmitterParticle.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDEntity.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDEntityInstance.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDEntityReference.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDExternalReferenceManager.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDExtra.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDForceDeflector.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDForceDrag.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDForceField.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDForceGravity.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDForcePBomb.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDForceWind.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDGeometry.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDGeometryInstance.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDGeometryMesh.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDGeometryNURBSSurface.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDGeometryPolygons.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDGeometryPolygonsInput.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDGeometryPolygonsTools.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDGeometrySource.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDGeometrySpline.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDImage.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDLibrary.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDLight.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDLightTools.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDMaterial.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDMaterialInstance.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDMorphController.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDObject.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDObjectWithId.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDocument.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDocumentTools.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDParameterAnimatable.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDParticleModifier.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDPhysicsAnalyticalGeometry.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDPhysicsForceFieldInstance.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDPhysicsMaterial.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDPhysicsModel.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDPhysicsModelInstance.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDPhysicsRigidBody.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDPhysicsRigidBodyInstance.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDPhysicsRigidBodyParameters.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDPhysicsRigidConstraint.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDPhysicsRigidConstraintInstance.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDPhysicsScene.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDPhysicsShape.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDPlaceHolder.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDSceneNode.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDSceneNodeIterator.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDSceneNodeTools.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDSkinController.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDTargetedEntity.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDTexture.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDTransform.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCDocument\FCDVersion.cpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FMath\FMAllocator.cpp">
+      <Filter>Source Files\FCollada\FMath</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FMath\FMAngleAxis.cpp">
+      <Filter>Source Files\FCollada\FMath</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FMath\FMArrayTest.cpp">
+      <Filter>Source Files\FCollada\FMath</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FMath\FMColor.cpp">
+      <Filter>Source Files\FCollada\FMath</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FMath\FMInterpolation.cpp">
+      <Filter>Source Files\FCollada\FMath</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FMath\FMLookAt.cpp">
+      <Filter>Source Files\FCollada\FMath</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FMath\FMMatrix33.cpp">
+      <Filter>Source Files\FCollada\FMath</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FMath\FMMatrix44.cpp">
+      <Filter>Source Files\FCollada\FMath</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FMath\FMQuaternion.cpp">
+      <Filter>Source Files\FCollada\FMath</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FMath\FMQuaternionTest.cpp">
+      <Filter>Source Files\FCollada\FMath</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FMath\FMRandom.cpp">
+      <Filter>Source Files\FCollada\FMath</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FMath\FMSkew.cpp">
+      <Filter>Source Files\FCollada\FMath</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FMath\FMTreeTest.cpp">
+      <Filter>Source Files\FCollada\FMath</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FMath\FMVector3.cpp">
+      <Filter>Source Files\FCollada\FMath</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FMath\FMVolume.cpp">
+      <Filter>Source Files\FCollada\FMath</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FUtils\FUAssert.cpp">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FUtils\FUBase64.cpp">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FUtils\FUBoundingBox.cpp">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FUtils\FUBoundingSphere.cpp">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FUtils\FUBoundingTest.cpp">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FUtils\FUCrc32.cpp">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FUtils\FUCrc32Test.cpp">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FUtils\FUCriticalSection.cpp">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FUtils\FUDaeEnum.cpp">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FUtils\FUDateTime.cpp">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FUtils\FUDebug.cpp">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FUtils\FUError.cpp">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FUtils\FUErrorLog.cpp">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FUtils\FUEventTest.cpp">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FUtils\FUFile.cpp">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FUtils\FUFileManager.cpp">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FUtils\FUFileManagerTest.cpp">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FUtils\FUFunctorTest.cpp">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FUtils\FULogFile.cpp">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FUtils\FUObject.cpp">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FUtils\FUObjectTest.cpp">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FUtils\FUObjectType.cpp">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FUtils\FUParameter.cpp">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FUtils\FUParameterizable.cpp">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FUtils\FUPluginManager.cpp">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FUtils\FUSemaphore.cpp">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FUtils\FUStringBuilder.cpp">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FUtils\FUStringBuilderTest.cpp">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FUtils\FUStringConversion.cpp">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FUtils\FUStringConversionTest.cpp">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FUtils\FUStringTest.cpp">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FUtils\FUSynchronizableObject.cpp">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FUtils\FUTestBed.cpp">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FUtils\FUThread.cpp">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FUtils\FUTracker.cpp">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FUtils\FUUniqueStringMap.cpp">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FUtils\FUUniqueStringMapTest.cpp">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FUtils\FUUri.cpp">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FUtils\FUXmlDocument.cpp">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FUtils\FUXmlParser.cpp">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FUtils\FUXmlWriter.cpp">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\DLLEntry.cpp">
+      <Filter>Source Files\FCollada</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FCollada.cpp">
+      <Filter>Source Files\FCollada</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\FColladaPlugin.cpp">
+      <Filter>Source Files\FCollada</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\LibXML\c14n.c">
+      <Filter>Source Files\FCollada\LibXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\LibXML\catalog.c">
+      <Filter>Source Files\FCollada\LibXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\LibXML\chvalid.c">
+      <Filter>Source Files\FCollada\LibXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\LibXML\debugXML.c">
+      <Filter>Source Files\FCollada\LibXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\LibXML\dict.c">
+      <Filter>Source Files\FCollada\LibXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\LibXML\DOCBparser.c">
+      <Filter>Source Files\FCollada\LibXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\LibXML\encoding.c">
+      <Filter>Source Files\FCollada\LibXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\LibXML\entities.c">
+      <Filter>Source Files\FCollada\LibXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\LibXML\error.c">
+      <Filter>Source Files\FCollada\LibXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\LibXML\globals.c">
+      <Filter>Source Files\FCollada\LibXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\LibXML\hash.c">
+      <Filter>Source Files\FCollada\LibXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\LibXML\HTMLparser.c">
+      <Filter>Source Files\FCollada\LibXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\LibXML\HTMLtree.c">
+      <Filter>Source Files\FCollada\LibXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\LibXML\legacy.c">
+      <Filter>Source Files\FCollada\LibXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\LibXML\list.c">
+      <Filter>Source Files\FCollada\LibXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\LibXML\nanoftp.c">
+      <Filter>Source Files\FCollada\LibXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\LibXML\nanohttp.c">
+      <Filter>Source Files\FCollada\LibXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\LibXML\parser.c">
+      <Filter>Source Files\FCollada\LibXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\LibXML\parserInternals.c">
+      <Filter>Source Files\FCollada\LibXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\LibXML\pattern.c">
+      <Filter>Source Files\FCollada\LibXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\LibXML\relaxng.c">
+      <Filter>Source Files\FCollada\LibXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\LibXML\SAX.c">
+      <Filter>Source Files\FCollada\LibXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\LibXML\SAX2.c">
+      <Filter>Source Files\FCollada\LibXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\LibXML\threads.c">
+      <Filter>Source Files\FCollada\LibXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\LibXML\tree.c">
+      <Filter>Source Files\FCollada\LibXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\LibXML\uri.c">
+      <Filter>Source Files\FCollada\LibXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\LibXML\valid.c">
+      <Filter>Source Files\FCollada\LibXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\LibXML\xinclude.c">
+      <Filter>Source Files\FCollada\LibXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\LibXML\xlink.c">
+      <Filter>Source Files\FCollada\LibXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\LibXML\xmlIO.c">
+      <Filter>Source Files\FCollada\LibXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\LibXML\xmlmemory.c">
+      <Filter>Source Files\FCollada\LibXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\LibXML\xmlmodule.c">
+      <Filter>Source Files\FCollada\LibXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\LibXML\xmlreader.c">
+      <Filter>Source Files\FCollada\LibXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\LibXML\xmlregexp.c">
+      <Filter>Source Files\FCollada\LibXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\LibXML\xmlsave.c">
+      <Filter>Source Files\FCollada\LibXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\LibXML\xmlstring.c">
+      <Filter>Source Files\FCollada\LibXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\LibXML\xmlunicode.c">
+      <Filter>Source Files\FCollada\LibXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCollada\LibXML\xmlwriter.c">
+      <Filter>Source Files\FCollada\LibXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Input\InputListener.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Input\InputManager.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Input\SystemInputListener.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Models\ColladaModel.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Models\ModelLoader.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Models\SketchUpModel.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Models\SupermarketModel.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Shaders\GLSLProgramObject.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Slide\Slide.cpp">
+      <Filter>Source Files\Slide</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Slide\Slide0.cpp">
+      <Filter>Source Files\Slide</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Slide\SlideTools.cpp">
+      <Filter>Source Files\Slide</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Slide\InputVisualizer.cpp">
+      <Filter>Source Files\Slide</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Wm5\Wm5Vector3.cpp">
+      <Filter>Source Files\Wm5</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Wm5\Wm5Vector4.cpp">
+      <Filter>Source Files\Wm5</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Wm5\Wm5ApprGaussPointsFit3.cpp">
+      <Filter>Source Files\Wm5</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Wm5\Wm5Assert.cpp">
+      <Filter>Source Files\Wm5</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Wm5\Wm5ContBox3.cpp">
+      <Filter>Source Files\Wm5</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Wm5\Wm5ContMinBox2.cpp">
+      <Filter>Source Files\Wm5</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Wm5\Wm5ContMinBox3.cpp">
+      <Filter>Source Files\Wm5</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Wm5\Wm5ConvexHull.cpp">
+      <Filter>Source Files\Wm5</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Wm5\Wm5ConvexHull1.cpp">
+      <Filter>Source Files\Wm5</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Wm5\Wm5ConvexHull2.cpp">
+      <Filter>Source Files\Wm5</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Wm5\Wm5ConvexHull3.cpp">
+      <Filter>Source Files\Wm5</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Wm5\Wm5CorePCH.cpp">
+      <Filter>Source Files\Wm5</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Wm5\Wm5Distance.cpp">
+      <Filter>Source Files\Wm5</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Wm5\Wm5DistSegment3Segment3.cpp">
+      <Filter>Source Files\Wm5</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Wm5\Wm5EigenDecomposition.cpp">
+      <Filter>Source Files\Wm5</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Wm5\Wm5Endian.cpp">
+      <Filter>Source Files\Wm5</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Wm5\Wm5FileIO.cpp">
+      <Filter>Source Files\Wm5</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Wm5\Wm5Intersector.cpp">
+      <Filter>Source Files\Wm5</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Wm5\Wm5Intersector1.cpp">
+      <Filter>Source Files\Wm5</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Wm5\Wm5IntrLine2Triangle2.cpp">
+      <Filter>Source Files\Wm5</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Wm5\Wm5IntrLine3Plane3.cpp">
+      <Filter>Source Files\Wm5</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Wm5\Wm5IntrSegment2Triangle2.cpp">
+      <Filter>Source Files\Wm5</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Wm5\Wm5IntrTriangle2Triangle2.cpp">
+      <Filter>Source Files\Wm5</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Wm5\Wm5IntrTriangle3Triangle3.cpp">
+      <Filter>Source Files\Wm5</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Wm5\Wm5Math.cpp">
+      <Filter>Source Files\Wm5</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Wm5\Wm5MathematicsPCH.cpp">
+      <Filter>Source Files\Wm5</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Wm5\Wm5Matrix2.cpp">
+      <Filter>Source Files\Wm5</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Wm5\Wm5Matrix3.cpp">
+      <Filter>Source Files\Wm5</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Wm5\Wm5Matrix4.cpp">
+      <Filter>Source Files\Wm5</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Wm5\Wm5Memory.cpp">
+      <Filter>Source Files\Wm5</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Wm5\Wm5Mutex.cpp">
+      <Filter>Source Files\Wm5</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Wm5\Wm5Quaternion.cpp">
+      <Filter>Source Files\Wm5</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Wm5\Wm5Query.cpp">
+      <Filter>Source Files\Wm5</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Wm5\Wm5SingularValueDecomposition.cpp">
+      <Filter>Source Files\Wm5</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Wm5\Wm5Vector2.cpp">
+      <Filter>Source Files\Wm5</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MultiRange.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SceneObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Input\ControlModuleMapping.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="glfw\enable.c">
+      <Filter>glfw</Filter>
+    </ClCompile>
+    <ClCompile Include="glfw\fullscreen.c">
+      <Filter>glfw</Filter>
+    </ClCompile>
+    <ClCompile Include="glfw\glext.c">
+      <Filter>glfw</Filter>
+    </ClCompile>
+    <ClCompile Include="glfw\image.c">
+      <Filter>glfw</Filter>
+    </ClCompile>
+    <ClCompile Include="glfw\init.c">
+      <Filter>glfw</Filter>
+    </ClCompile>
+    <ClCompile Include="glfw\input.c">
+      <Filter>glfw</Filter>
+    </ClCompile>
+    <ClCompile Include="glfw\joystick.c">
+      <Filter>glfw</Filter>
+    </ClCompile>
+    <ClCompile Include="glfw\stream.c">
+      <Filter>glfw</Filter>
+    </ClCompile>
+    <ClCompile Include="glfw\tga.c">
+      <Filter>glfw</Filter>
+    </ClCompile>
+    <ClCompile Include="glfw\thread.c">
+      <Filter>glfw</Filter>
+    </ClCompile>
+    <ClCompile Include="glfw\time.c">
+      <Filter>glfw</Filter>
+    </ClCompile>
+    <ClCompile Include="glfw\window.c">
+      <Filter>glfw</Filter>
+    </ClCompile>
+    <ClCompile Include="glfw\win32\win32_dllmain.c">
+      <Filter>glfw\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="glfw\win32\win32_enable.c">
+      <Filter>glfw\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="glfw\win32\win32_fullscreen.c">
+      <Filter>glfw\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="glfw\win32\win32_glext.c">
+      <Filter>glfw\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="glfw\win32\win32_init.c">
+      <Filter>glfw\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="glfw\win32\win32_joystick.c">
+      <Filter>glfw\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="glfw\win32\win32_thread.c">
+      <Filter>glfw\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="glfw\win32\win32_time.c">
+      <Filter>glfw\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="glfw\win32\win32_window.c">
+      <Filter>glfw\win32</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ControlModes\ClassicMode.h">
+      <Filter>Source Files\ControlModes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ControlModes\ControlMode.h">
+      <Filter>Source Files\ControlModes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ControlModes\DepthIntervalsMode.h">
+      <Filter>Source Files\ControlModes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ControlModes\InputTestMode.h">
+      <Filter>Source Files\ControlModes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ControlModes\UnderCursorMode.h">
+      <Filter>Source Files\ControlModes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Bamboo\Bamboo.h">
+      <Filter>Source Files\Bamboo</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Bamboo\Finger.h">
+      <Filter>Source Files\Bamboo</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Bamboo\System.h">
+      <Filter>Source Files\Bamboo</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Arcball\matrix3x3.h">
+      <Filter>Source Files\Arcball</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Arcball\quaternion.h">
+      <Filter>Source Files\Arcball</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Arcball\trackball_bell.h">
+      <Filter>Source Files\Arcball</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Arcball\vector3.h">
+      <Filter>Source Files\Arcball</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ControlModules\ControlModule.h">
+      <Filter>Source Files\ControlModules</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ControlModules\TwoAxisValuatorModule.h">
+      <Filter>Source Files\ControlModules</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ControlModules\UnderCursorTranslationModule.h">
+      <Filter>Source Files\ControlModules</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ControlModules\UnrealCameraModule.h">
+      <Filter>Source Files\ControlModules</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FArchiveXML\FArchiveXML.h">
+      <Filter>Source Files\FCollada\FArchiveXML</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FArchiveXML\FAXColladaParser.h">
+      <Filter>Source Files\FCollada\FArchiveXML</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FArchiveXML\FAXColladaWriter.h">
+      <Filter>Source Files\FCollada\FArchiveXML</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FArchiveXML\FAXStructures.h">
+      <Filter>Source Files\FCollada\FArchiveXML</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FArchiveXML\StdAfx.h">
+      <Filter>Source Files\FCollada\FArchiveXML</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDAnimated.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDAnimation.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDAnimationChannel.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDAnimationClip.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDAnimationClipTools.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDAnimationCurve.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDAnimationCurveTools.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDAnimationKey.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDAnimationMultiCurve.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDAsset.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDCamera.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDController.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDControllerInstance.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDControllerTools.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDEffect.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDEffectCode.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDEffectParameter.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDEffectParameter.hpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDEffectParameterFactory.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDEffectParameterSampler.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDEffectParameterSurface.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDEffectPass.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDEffectPassShader.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDEffectPassState.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDEffectProfile.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDEffectProfileFX.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDEffectStandard.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDEffectTechnique.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDEffectTools.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDEmitter.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDEmitterInstance.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDEmitterObject.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDEmitterParticle.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDEntity.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDEntityInstance.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDEntityReference.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDExternalReferenceManager.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDExtra.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDForceDeflector.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDForceDrag.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDForceField.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDForceGravity.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDForcePBomb.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDForceTyped.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDForceWind.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDGeometry.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDGeometryInstance.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDGeometryMesh.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDGeometryNURBSSurface.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDGeometryPolygons.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDGeometryPolygonsInput.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDGeometryPolygonsTools.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDGeometrySource.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDGeometrySpline.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDImage.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDLibrary.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDLibrary.hpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDLight.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDLightTools.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDMaterial.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDMaterialInstance.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDMorphController.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDObject.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDObjectWithId.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDocument.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDocumentTools.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDParameterAnimatable.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDParameterAnimatable.hpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDParticleEmitter.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDParticleModifier.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDPhysicsAnalyticalGeometry.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDPhysicsForceFieldInstance.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDPhysicsMaterial.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDPhysicsModel.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDPhysicsModelInstance.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDPhysicsRigidBody.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDPhysicsRigidBodyInstance.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDPhysicsRigidBodyParameters.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDPhysicsRigidConstraint.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDPhysicsRigidConstraintInstance.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDPhysicsScene.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDPhysicsShape.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDPlaceHolder.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDSceneNode.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDSceneNodeIterator.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDSceneNodeIterator.hpp">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDSceneNodeTools.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDSkinController.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDTargetedEntity.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDTexture.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDTransform.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCDocument\FCDVersion.h">
+      <Filter>Source Files\FCollada\FCDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FMath\FMAllocator.h">
+      <Filter>Source Files\FCollada\FMath</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FMath\FMAngleAxis.h">
+      <Filter>Source Files\FCollada\FMath</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FMath\FMArray.h">
+      <Filter>Source Files\FCollada\FMath</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FMath\FMArrayPointer.h">
+      <Filter>Source Files\FCollada\FMath</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FMath\FMath.h">
+      <Filter>Source Files\FCollada\FMath</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FMath\FMColor.h">
+      <Filter>Source Files\FCollada\FMath</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FMath\FMFloat.h">
+      <Filter>Source Files\FCollada\FMath</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FMath\FMInteger.h">
+      <Filter>Source Files\FCollada\FMath</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FMath\FMInterpolation.h">
+      <Filter>Source Files\FCollada\FMath</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FMath\FMLookAt.h">
+      <Filter>Source Files\FCollada\FMath</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FMath\FMMatrix33.h">
+      <Filter>Source Files\FCollada\FMath</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FMath\FMMatrix44.h">
+      <Filter>Source Files\FCollada\FMath</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FMath\FMQuaternion.h">
+      <Filter>Source Files\FCollada\FMath</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FMath\FMRandom.h">
+      <Filter>Source Files\FCollada\FMath</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FMath\FMSkew.h">
+      <Filter>Source Files\FCollada\FMath</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FMath\FMSort.h">
+      <Filter>Source Files\FCollada\FMath</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FMath\FMTree.h">
+      <Filter>Source Files\FCollada\FMath</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FMath\FMVector2.h">
+      <Filter>Source Files\FCollada\FMath</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FMath\FMVector3.h">
+      <Filter>Source Files\FCollada\FMath</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FMath\FMVector4.h">
+      <Filter>Source Files\FCollada\FMath</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FMath\FMVolume.h">
+      <Filter>Source Files\FCollada\FMath</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FMath\StdAfx.h">
+      <Filter>Source Files\FCollada\FMath</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FUtils\FUAssert.h">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FUtils\FUBase64.h">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FUtils\FUBoundingBox.h">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FUtils\FUBoundingSphere.h">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FUtils\FUCrc32.h">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FUtils\FUCriticalSection.h">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FUtils\FUDaeEnum.h">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FUtils\FUDaeEnumSyntax.h">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FUtils\FUDaeSyntax.h">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FUtils\FUDateTime.h">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FUtils\FUDebug.h">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FUtils\FUError.h">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FUtils\FUErrorLog.h">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FUtils\FUEvent.h">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FUtils\FUFile.h">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FUtils\FUFileManager.h">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FUtils\FUFunctor.h">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FUtils\FULogFile.h">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FUtils\FUObject.h">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FUtils\FUObjectType.h">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FUtils\FUParameter.h">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FUtils\FUParameter.hpp">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FUtils\FUParameterizable.h">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FUtils\FUPlugin.h">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FUtils\FUPluginManager.h">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FUtils\FUSemaphore.h">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FUtils\FUSingleton.h">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FUtils\FUString.h">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FUtils\FUStringBuilder.h">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FUtils\FUStringBuilder.hpp">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FUtils\FUStringConversion.h">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FUtils\FUStringConversion.hpp">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FUtils\FUSynchronizableObject.h">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FUtils\FUTestBed.h">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FUtils\FUThread.h">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FUtils\FUtils.h">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FUtils\FUTracker.h">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FUtils\FUUniqueStringMap.h">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FUtils\FUUri.h">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FUtils\FUXmlDocument.h">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FUtils\FUXmlParser.h">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FUtils\FUXmlWriter.h">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FUtils\Platforms.h">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FUtils\StdAfx.h">
+      <Filter>Source Files\FCollada\FUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FCollada.h">
+      <Filter>Source Files\FCollada</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\FColladaPlugin.h">
+      <Filter>Source Files\FCollada</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\StdAfx.h">
+      <Filter>Source Files\FCollada</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\c14n.h">
+      <Filter>Source Files\FCollada\LibXML\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\catalog.h">
+      <Filter>Source Files\FCollada\LibXML\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\chvalid.h">
+      <Filter>Source Files\FCollada\LibXML\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\debugXML.h">
+      <Filter>Source Files\FCollada\LibXML\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\dict.h">
+      <Filter>Source Files\FCollada\LibXML\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\DOCBparser.h">
+      <Filter>Source Files\FCollada\LibXML\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\encoding.h">
+      <Filter>Source Files\FCollada\LibXML\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\entities.h">
+      <Filter>Source Files\FCollada\LibXML\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\globals.h">
+      <Filter>Source Files\FCollada\LibXML\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\hash.h">
+      <Filter>Source Files\FCollada\LibXML\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\HTMLparser.h">
+      <Filter>Source Files\FCollada\LibXML\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\HTMLtree.h">
+      <Filter>Source Files\FCollada\LibXML\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\list.h">
+      <Filter>Source Files\FCollada\LibXML\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\nanoftp.h">
+      <Filter>Source Files\FCollada\LibXML\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\nanohttp.h">
+      <Filter>Source Files\FCollada\LibXML\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\parser.h">
+      <Filter>Source Files\FCollada\LibXML\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\parserInternals.h">
+      <Filter>Source Files\FCollada\LibXML\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\pattern.h">
+      <Filter>Source Files\FCollada\LibXML\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\relaxng.h">
+      <Filter>Source Files\FCollada\LibXML\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\SAX.h">
+      <Filter>Source Files\FCollada\LibXML\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\SAX2.h">
+      <Filter>Source Files\FCollada\LibXML\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\schemasInternals.h">
+      <Filter>Source Files\FCollada\LibXML\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\threads.h">
+      <Filter>Source Files\FCollada\LibXML\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\tree.h">
+      <Filter>Source Files\FCollada\LibXML\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\uri.h">
+      <Filter>Source Files\FCollada\LibXML\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\valid.h">
+      <Filter>Source Files\FCollada\LibXML\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\xinclude.h">
+      <Filter>Source Files\FCollada\LibXML\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\xlink.h">
+      <Filter>Source Files\FCollada\LibXML\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\xmlautomata.h">
+      <Filter>Source Files\FCollada\LibXML\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\xmlerror.h">
+      <Filter>Source Files\FCollada\LibXML\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\xmlexports.h">
+      <Filter>Source Files\FCollada\LibXML\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\xmlIO.h">
+      <Filter>Source Files\FCollada\LibXML\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\xmlmemory.h">
+      <Filter>Source Files\FCollada\LibXML\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\xmlmodule.h">
+      <Filter>Source Files\FCollada\LibXML\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\xmlreader.h">
+      <Filter>Source Files\FCollada\LibXML\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\xmlregexp.h">
+      <Filter>Source Files\FCollada\LibXML\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\xmlsave.h">
+      <Filter>Source Files\FCollada\LibXML\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\xmlschemas.h">
+      <Filter>Source Files\FCollada\LibXML\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\xmlschemastypes.h">
+      <Filter>Source Files\FCollada\LibXML\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\xmlstring.h">
+      <Filter>Source Files\FCollada\LibXML\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\xmlunicode.h">
+      <Filter>Source Files\FCollada\LibXML\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\xmlversion.h">
+      <Filter>Source Files\FCollada\LibXML\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\xmlwriter.h">
+      <Filter>Source Files\FCollada\LibXML\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\xpath.h">
+      <Filter>Source Files\FCollada\LibXML\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\xpathInternals.h">
+      <Filter>Source Files\FCollada\LibXML\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\xpointer.h">
+      <Filter>Source Files\FCollada\LibXML\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\LibXML\include\win32config.h">
+      <Filter>Source Files\FCollada\LibXML\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\LibXML\include\wsockcompat.h">
+      <Filter>Source Files\FCollada\LibXML\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\LibXML\acconfig.h">
+      <Filter>Source Files\FCollada\LibXML</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\LibXML\config.h">
+      <Filter>Source Files\FCollada\LibXML</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\LibXML\config-ps3.h">
+      <Filter>Source Files\FCollada\LibXML</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\LibXML\elfgcchack.h">
+      <Filter>Source Files\FCollada\LibXML</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FCollada\LibXML\libxml.h">
+      <Filter>Source Files\FCollada\LibXML</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Input\InputListener.h">
+      <Filter>Source Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Input\InputManager.h">
+      <Filter>Source Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Input\SystemInputListener.h">
+      <Filter>Source Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Models\ColladaModel.h">
+      <Filter>Source Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Models\ModelLoader.h">
+      <Filter>Source Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Models\SketchUpModel.h">
+      <Filter>Source Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Models\SupermarketModel.h">
+      <Filter>Source Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Shaders\GLSLProgramObject.h">
+      <Filter>Source Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Shaders\nvSDKPath.h">
+      <Filter>Source Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Shaders\nvShaderUtils.h">
+      <Filter>Source Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Slide\Slide.h">
+      <Filter>Source Files\Slide</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Slide\Slide0.h">
+      <Filter>Source Files\Slide</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Slide\SlideTools.h">
+      <Filter>Source Files\Slide</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Slide\InputVisualizer.h">
+      <Filter>Source Files\Slide</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wm5\Wm5Vector2.h">
+      <Filter>Source Files\Wm5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wm5\Wm5Vector3.h">
+      <Filter>Source Files\Wm5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wm5\Wm5Vector4.h">
+      <Filter>Source Files\Wm5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wm5\Wm5ApprGaussPointsFit3.h">
+      <Filter>Source Files\Wm5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wm5\Wm5Assert.h">
+      <Filter>Source Files\Wm5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wm5\Wm5Box2.h">
+      <Filter>Source Files\Wm5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wm5\Wm5Box3.h">
+      <Filter>Source Files\Wm5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wm5\Wm5ContBox3.h">
+      <Filter>Source Files\Wm5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wm5\Wm5ContMinBox2.h">
+      <Filter>Source Files\Wm5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wm5\Wm5ContMinBox3.h">
+      <Filter>Source Files\Wm5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wm5\Wm5ConvexHull.h">
+      <Filter>Source Files\Wm5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wm5\Wm5ConvexHull1.h">
+      <Filter>Source Files\Wm5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wm5\Wm5ConvexHull2.h">
+      <Filter>Source Files\Wm5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wm5\Wm5ConvexHull3.h">
+      <Filter>Source Files\Wm5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wm5\Wm5CoreLIB.h">
+      <Filter>Source Files\Wm5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wm5\Wm5CorePCH.h">
+      <Filter>Source Files\Wm5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wm5\Wm5Distance.h">
+      <Filter>Source Files\Wm5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wm5\Wm5DistSegment3Segment3.h">
+      <Filter>Source Files\Wm5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wm5\Wm5EdgeKey.h">
+      <Filter>Source Files\Wm5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wm5\Wm5EigenDecomposition.h">
+      <Filter>Source Files\Wm5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wm5\Wm5Endian.h">
+      <Filter>Source Files\Wm5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wm5\Wm5FileIO.h">
+      <Filter>Source Files\Wm5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wm5\Wm5GMatrix.h">
+      <Filter>Source Files\Wm5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wm5\Wm5GVector.h">
+      <Filter>Source Files\Wm5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wm5\Wm5Integer.h">
+      <Filter>Source Files\Wm5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wm5\Wm5Intersector.h">
+      <Filter>Source Files\Wm5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wm5\Wm5Intersector1.h">
+      <Filter>Source Files\Wm5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wm5\Wm5IntrLine2Triangle2.h">
+      <Filter>Source Files\Wm5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wm5\Wm5IntrLine3Plane3.h">
+      <Filter>Source Files\Wm5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wm5\Wm5IntrSegment2Triangle2.h">
+      <Filter>Source Files\Wm5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wm5\Wm5IntrTriangle2Triangle2.h">
+      <Filter>Source Files\Wm5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wm5\Wm5IntrTriangle3Triangle3.h">
+      <Filter>Source Files\Wm5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wm5\Wm5Line2.h">
+      <Filter>Source Files\Wm5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wm5\Wm5Line3.h">
+      <Filter>Source Files\Wm5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wm5\Wm5Math.h">
+      <Filter>Source Files\Wm5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wm5\Wm5MathematicsLIB.h">
+      <Filter>Source Files\Wm5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wm5\Wm5MathematicsPCH.h">
+      <Filter>Source Files\Wm5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wm5\Wm5Matrix2.h">
+      <Filter>Source Files\Wm5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wm5\Wm5Matrix3.h">
+      <Filter>Source Files\Wm5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wm5\Wm5Matrix4.h">
+      <Filter>Source Files\Wm5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wm5\Wm5Memory.h">
+      <Filter>Source Files\Wm5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wm5\Wm5Mutex.h">
+      <Filter>Source Files\Wm5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wm5\Wm5MutexType.h">
+      <Filter>Source Files\Wm5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wm5\Wm5Plane3.h">
+      <Filter>Source Files\Wm5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wm5\Wm5Quaternion.h">
+      <Filter>Source Files\Wm5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wm5\Wm5Query.h">
+      <Filter>Source Files\Wm5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wm5\Wm5Query2.h">
+      <Filter>Source Files\Wm5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wm5\Wm5Query2Filtered.h">
+      <Filter>Source Files\Wm5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wm5\Wm5Query2Int64.h">
+      <Filter>Source Files\Wm5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wm5\Wm5Query2Integer.h">
+      <Filter>Source Files\Wm5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wm5\Wm5Query2Rational.h">
+      <Filter>Source Files\Wm5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wm5\Wm5Query3.h">
+      <Filter>Source Files\Wm5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wm5\Wm5Query3Filtered.h">
+      <Filter>Source Files\Wm5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wm5\Wm5Query3Int64.h">
+      <Filter>Source Files\Wm5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wm5\Wm5Query3Integer.h">
+      <Filter>Source Files\Wm5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wm5\Wm5Query3Rational.h">
+      <Filter>Source Files\Wm5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wm5\Wm5Rational.h">
+      <Filter>Source Files\Wm5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wm5\Wm5RVector.h">
+      <Filter>Source Files\Wm5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wm5\Wm5RVector2.h">
+      <Filter>Source Files\Wm5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wm5\Wm5RVector3.h">
+      <Filter>Source Files\Wm5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wm5\Wm5Segment2.h">
+      <Filter>Source Files\Wm5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wm5\Wm5Segment3.h">
+      <Filter>Source Files\Wm5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wm5\Wm5SingularValueDecomposition.h">
+      <Filter>Source Files\Wm5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wm5\Wm5Table.h">
+      <Filter>Source Files\Wm5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wm5\Wm5Triangle2.h">
+      <Filter>Source Files\Wm5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wm5\Wm5Triangle3.h">
+      <Filter>Source Files\Wm5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wm5\Wm5Tuple.h">
+      <Filter>Source Files\Wm5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MultiRange.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Scene.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SceneObject.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Globals.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Input\ControlModuleMapping.h">
+      <Filter>Source Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Vector2.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Vector2.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="glfw\internal.h">
+      <Filter>glfw</Filter>
+    </ClInclude>
+    <ClInclude Include="glfw\win32\platform.h">
+      <Filter>glfw\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GL\glfw.h">
+      <Filter>glfw</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\Shaders\depth_peel_fragment.glsl">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+    <None Include="src\Shaders\depth_peel_vertex.glsl">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+    <None Include="src\Wm5\Wm5Vector2.inl">
+      <Filter>Source Files\Wm5</Filter>
+    </None>
+    <None Include="src\Wm5\Wm5Vector3.inl">
+      <Filter>Source Files\Wm5</Filter>
+    </None>
+    <None Include="src\Wm5\Wm5Vector4.inl">
+      <Filter>Source Files\Wm5</Filter>
+    </None>
+    <None Include="src\Wm5\Wm5Box2.inl">
+      <Filter>Source Files\Wm5</Filter>
+    </None>
+    <None Include="src\Wm5\Wm5Box3.inl">
+      <Filter>Source Files\Wm5</Filter>
+    </None>
+    <None Include="src\Wm5\Wm5EdgeKey.inl">
+      <Filter>Source Files\Wm5</Filter>
+    </None>
+    <None Include="src\Wm5\Wm5FileIO.inl">
+      <Filter>Source Files\Wm5</Filter>
+    </None>
+    <None Include="src\Wm5\Wm5GMatrix.inl">
+      <Filter>Source Files\Wm5</Filter>
+    </None>
+    <None Include="src\Wm5\Wm5GVector.inl">
+      <Filter>Source Files\Wm5</Filter>
+    </None>
+    <None Include="src\Wm5\Wm5Integer.inl">
+      <Filter>Source Files\Wm5</Filter>
+    </None>
+    <None Include="src\Wm5\Wm5Line2.inl">
+      <Filter>Source Files\Wm5</Filter>
+    </None>
+    <None Include="src\Wm5\Wm5Line3.inl">
+      <Filter>Source Files\Wm5</Filter>
+    </None>
+    <None Include="src\Wm5\Wm5Math.inl">
+      <Filter>Source Files\Wm5</Filter>
+    </None>
+    <None Include="src\Wm5\Wm5Matrix2.inl">
+      <Filter>Source Files\Wm5</Filter>
+    </None>
+    <None Include="src\Wm5\Wm5Matrix3.inl">
+      <Filter>Source Files\Wm5</Filter>
+    </None>
+    <None Include="src\Wm5\Wm5Matrix4.inl">
+      <Filter>Source Files\Wm5</Filter>
+    </None>
+    <None Include="src\Wm5\Wm5Memory.inl">
+      <Filter>Source Files\Wm5</Filter>
+    </None>
+    <None Include="src\Wm5\Wm5Plane3.inl">
+      <Filter>Source Files\Wm5</Filter>
+    </None>
+    <None Include="src\Wm5\Wm5Quaternion.inl">
+      <Filter>Source Files\Wm5</Filter>
+    </None>
+    <None Include="src\Wm5\Wm5Query2.inl">
+      <Filter>Source Files\Wm5</Filter>
+    </None>
+    <None Include="src\Wm5\Wm5Query2Filtered.inl">
+      <Filter>Source Files\Wm5</Filter>
+    </None>
+    <None Include="src\Wm5\Wm5Query2Int64.inl">
+      <Filter>Source Files\Wm5</Filter>
+    </None>
+    <None Include="src\Wm5\Wm5Query2Integer.inl">
+      <Filter>Source Files\Wm5</Filter>
+    </None>
+    <None Include="src\Wm5\Wm5Query2Rational.inl">
+      <Filter>Source Files\Wm5</Filter>
+    </None>
+    <None Include="src\Wm5\Wm5Query3.inl">
+      <Filter>Source Files\Wm5</Filter>
+    </None>
+    <None Include="src\Wm5\Wm5Query3Filtered.inl">
+      <Filter>Source Files\Wm5</Filter>
+    </None>
+    <None Include="src\Wm5\Wm5Query3Int64.inl">
+      <Filter>Source Files\Wm5</Filter>
+    </None>
+    <None Include="src\Wm5\Wm5Query3Integer.inl">
+      <Filter>Source Files\Wm5</Filter>
+    </None>
+    <None Include="src\Wm5\Wm5Query3Rational.inl">
+      <Filter>Source Files\Wm5</Filter>
+    </None>
+    <None Include="src\Wm5\Wm5Rational.inl">
+      <Filter>Source Files\Wm5</Filter>
+    </None>
+    <None Include="src\Wm5\Wm5RVector.inl">
+      <Filter>Source Files\Wm5</Filter>
+    </None>
+    <None Include="src\Wm5\Wm5RVector2.inl">
+      <Filter>Source Files\Wm5</Filter>
+    </None>
+    <None Include="src\Wm5\Wm5RVector3.inl">
+      <Filter>Source Files\Wm5</Filter>
+    </None>
+    <None Include="src\Wm5\Wm5Segment2.inl">
+      <Filter>Source Files\Wm5</Filter>
+    </None>
+    <None Include="src\Wm5\Wm5Segment3.inl">
+      <Filter>Source Files\Wm5</Filter>
+    </None>
+    <None Include="src\Wm5\Wm5Table.inl">
+      <Filter>Source Files\Wm5</Filter>
+    </None>
+    <None Include="src\Wm5\Wm5Triangle2.inl">
+      <Filter>Source Files\Wm5</Filter>
+    </None>
+    <None Include="src\Wm5\Wm5Triangle3.inl">
+      <Filter>Source Files\Wm5</Filter>
+    </None>
+    <None Include="src\Wm5\Wm5Tuple.inl">
+      <Filter>Source Files\Wm5</Filter>
+    </None>
+    <None Include="Slide.cd" />
+  </ItemGroup>
+</Project>

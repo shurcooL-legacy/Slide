@@ -1,0 +1,782 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="glfw\enable.c" />
+    <ClCompile Include="glfw\fullscreen.c" />
+    <ClCompile Include="glfw\glext.c" />
+    <ClCompile Include="glfw\image.c" />
+    <ClCompile Include="glfw\init.c" />
+    <ClCompile Include="glfw\input.c" />
+    <ClCompile Include="glfw\joystick.c" />
+    <ClCompile Include="glfw\stream.c" />
+    <ClCompile Include="glfw\tga.c" />
+    <ClCompile Include="glfw\thread.c" />
+    <ClCompile Include="glfw\time.c" />
+    <ClCompile Include="glfw\win32\win32_dllmain.c" />
+    <ClCompile Include="glfw\win32\win32_enable.c" />
+    <ClCompile Include="glfw\win32\win32_fullscreen.c" />
+    <ClCompile Include="glfw\win32\win32_glext.c" />
+    <ClCompile Include="glfw\win32\win32_init.c" />
+    <ClCompile Include="glfw\win32\win32_joystick.c" />
+    <ClCompile Include="glfw\win32\win32_thread.c" />
+    <ClCompile Include="glfw\win32\win32_time.c" />
+    <ClCompile Include="glfw\win32\win32_window.c" />
+    <ClCompile Include="glfw\window.c" />
+    <ClCompile Include="src\Arcball\Arcball.cpp" />
+    <ClCompile Include="src\Bamboo\Bamboo.cpp" />
+    <ClCompile Include="src\Bamboo\System.cpp" />
+    <ClCompile Include="src\ControlModes\ClassicMode.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\ControlModes\ControlMode.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\ControlModes\DepthIntervalsMode.cpp" />
+    <ClCompile Include="src\ControlModes\InputTestMode.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\ControlModes\UnderCursorMode.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\ControlModules\ControlModule.cpp" />
+    <ClCompile Include="src\ControlModules\TwoAxisValuatorModule.cpp" />
+    <ClCompile Include="src\ControlModules\UnderCursorTranslationModule.cpp" />
+    <ClCompile Include="src\ControlModules\UnrealCameraModule.cpp" />
+    <ClCompile Include="src\FCollada\DLLEntry.cpp" />
+    <ClCompile Include="src\FCollada\FArchiveXML\FArchiveXML.cpp" />
+    <ClCompile Include="src\FCollada\FArchiveXML\FAXAnimationExport.cpp" />
+    <ClCompile Include="src\FCollada\FArchiveXML\FAXAnimationImport.cpp" />
+    <ClCompile Include="src\FCollada\FArchiveXML\FAXCameraExport.cpp" />
+    <ClCompile Include="src\FCollada\FArchiveXML\FAXCameraImport.cpp" />
+    <ClCompile Include="src\FCollada\FArchiveXML\FAXColladaParser.cpp" />
+    <ClCompile Include="src\FCollada\FArchiveXML\FAXColladaWriter.cpp" />
+    <ClCompile Include="src\FCollada\FArchiveXML\FAXControllerExport.cpp" />
+    <ClCompile Include="src\FCollada\FArchiveXML\FAXControllerImport.cpp" />
+    <ClCompile Include="src\FCollada\FArchiveXML\FAXEmitterExport.cpp" />
+    <ClCompile Include="src\FCollada\FArchiveXML\FAXEmitterImport.cpp" />
+    <ClCompile Include="src\FCollada\FArchiveXML\FAXEntityExport.cpp" />
+    <ClCompile Include="src\FCollada\FArchiveXML\FAXEntityImport.cpp" />
+    <ClCompile Include="src\FCollada\FArchiveXML\FAXForceFieldExport.cpp" />
+    <ClCompile Include="src\FCollada\FArchiveXML\FAXForceFieldImport.cpp" />
+    <ClCompile Include="src\FCollada\FArchiveXML\FAXGeometryExport.cpp" />
+    <ClCompile Include="src\FCollada\FArchiveXML\FAXGeometryImport.cpp" />
+    <ClCompile Include="src\FCollada\FArchiveXML\FAXImportLinking.cpp" />
+    <ClCompile Include="src\FCollada\FArchiveXML\FAXInstanceExport.cpp" />
+    <ClCompile Include="src\FCollada\FArchiveXML\FAXInstanceImport.cpp" />
+    <ClCompile Include="src\FCollada\FArchiveXML\FAXLightExport.cpp" />
+    <ClCompile Include="src\FCollada\FArchiveXML\FAXLightImport.cpp" />
+    <ClCompile Include="src\FCollada\FArchiveXML\FAXMaterialExport.cpp" />
+    <ClCompile Include="src\FCollada\FArchiveXML\FAXMaterialImport.cpp" />
+    <ClCompile Include="src\FCollada\FArchiveXML\FAXPhysicsExport.cpp" />
+    <ClCompile Include="src\FCollada\FArchiveXML\FAXPhysicsImport.cpp" />
+    <ClCompile Include="src\FCollada\FArchiveXML\FAXSceneExport.cpp" />
+    <ClCompile Include="src\FCollada\FArchiveXML\FAXSceneImport.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDAnimated.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDAnimation.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDAnimationChannel.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDAnimationClip.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDAnimationClipTools.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDAnimationCurve.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDAnimationCurveTools.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDAnimationKey.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDAnimationMultiCurve.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDAsset.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDCamera.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDController.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDControllerInstance.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDControllerTools.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDEffect.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDEffectCode.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDEffectParameter.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDEffectParameterFactory.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDEffectParameterSampler.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDEffectParameterSurface.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDEffectPass.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDEffectPassShader.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDEffectPassState.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDEffectProfile.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDEffectProfileFX.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDEffectStandard.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDEffectTechnique.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDEffectTools.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDEmitter.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDEmitterInstance.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDEmitterObject.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDEmitterParticle.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDEntity.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDEntityInstance.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDEntityReference.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDExternalReferenceManager.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDExtra.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDForceDeflector.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDForceDrag.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDForceField.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDForceGravity.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDForcePBomb.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDForceWind.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDGeometry.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDGeometryInstance.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDGeometryMesh.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDGeometryNURBSSurface.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDGeometryPolygons.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDGeometryPolygonsInput.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDGeometryPolygonsTools.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDGeometrySource.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDGeometrySpline.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDImage.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDLibrary.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDLight.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDLightTools.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDMaterial.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDMaterialInstance.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDMorphController.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDObject.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDObjectWithId.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDocument.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDocumentTools.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDParameterAnimatable.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDParticleModifier.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDPhysicsAnalyticalGeometry.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDPhysicsForceFieldInstance.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDPhysicsMaterial.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDPhysicsModel.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDPhysicsModelInstance.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDPhysicsRigidBody.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDPhysicsRigidBodyInstance.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDPhysicsRigidBodyParameters.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDPhysicsRigidConstraint.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDPhysicsRigidConstraintInstance.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDPhysicsScene.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDPhysicsShape.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDPlaceHolder.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDSceneNode.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDSceneNodeIterator.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDSceneNodeTools.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDSkinController.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDTargetedEntity.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDTexture.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDTransform.cpp" />
+    <ClCompile Include="src\FCollada\FCDocument\FCDVersion.cpp" />
+    <ClCompile Include="src\FCollada\FCollada.cpp" />
+    <ClCompile Include="src\FCollada\FColladaPlugin.cpp" />
+    <ClCompile Include="src\FCollada\FMath\FMAllocator.cpp" />
+    <ClCompile Include="src\FCollada\FMath\FMAngleAxis.cpp" />
+    <ClCompile Include="src\FCollada\FMath\FMArrayTest.cpp" />
+    <ClCompile Include="src\FCollada\FMath\FMColor.cpp" />
+    <ClCompile Include="src\FCollada\FMath\FMInterpolation.cpp" />
+    <ClCompile Include="src\FCollada\FMath\FMLookAt.cpp" />
+    <ClCompile Include="src\FCollada\FMath\FMMatrix33.cpp" />
+    <ClCompile Include="src\FCollada\FMath\FMMatrix44.cpp" />
+    <ClCompile Include="src\FCollada\FMath\FMQuaternion.cpp" />
+    <ClCompile Include="src\FCollada\FMath\FMQuaternionTest.cpp" />
+    <ClCompile Include="src\FCollada\FMath\FMRandom.cpp" />
+    <ClCompile Include="src\FCollada\FMath\FMSkew.cpp" />
+    <ClCompile Include="src\FCollada\FMath\FMTreeTest.cpp" />
+    <ClCompile Include="src\FCollada\FMath\FMVector3.cpp" />
+    <ClCompile Include="src\FCollada\FMath\FMVolume.cpp" />
+    <ClCompile Include="src\FCollada\FUtils\FUAssert.cpp" />
+    <ClCompile Include="src\FCollada\FUtils\FUBase64.cpp" />
+    <ClCompile Include="src\FCollada\FUtils\FUBoundingBox.cpp" />
+    <ClCompile Include="src\FCollada\FUtils\FUBoundingSphere.cpp" />
+    <ClCompile Include="src\FCollada\FUtils\FUBoundingTest.cpp" />
+    <ClCompile Include="src\FCollada\FUtils\FUCrc32.cpp" />
+    <ClCompile Include="src\FCollada\FUtils\FUCrc32Test.cpp" />
+    <ClCompile Include="src\FCollada\FUtils\FUCriticalSection.cpp" />
+    <ClCompile Include="src\FCollada\FUtils\FUDaeEnum.cpp" />
+    <ClCompile Include="src\FCollada\FUtils\FUDateTime.cpp" />
+    <ClCompile Include="src\FCollada\FUtils\FUDebug.cpp" />
+    <ClCompile Include="src\FCollada\FUtils\FUError.cpp" />
+    <ClCompile Include="src\FCollada\FUtils\FUErrorLog.cpp" />
+    <ClCompile Include="src\FCollada\FUtils\FUEventTest.cpp" />
+    <ClCompile Include="src\FCollada\FUtils\FUFile.cpp" />
+    <ClCompile Include="src\FCollada\FUtils\FUFileManager.cpp" />
+    <ClCompile Include="src\FCollada\FUtils\FUFileManagerTest.cpp" />
+    <ClCompile Include="src\FCollada\FUtils\FUFunctorTest.cpp" />
+    <ClCompile Include="src\FCollada\FUtils\FULogFile.cpp" />
+    <ClCompile Include="src\FCollada\FUtils\FUObject.cpp" />
+    <ClCompile Include="src\FCollada\FUtils\FUObjectTest.cpp" />
+    <ClCompile Include="src\FCollada\FUtils\FUObjectType.cpp" />
+    <ClCompile Include="src\FCollada\FUtils\FUParameter.cpp" />
+    <ClCompile Include="src\FCollada\FUtils\FUParameterizable.cpp" />
+    <ClCompile Include="src\FCollada\FUtils\FUPluginManager.cpp" />
+    <ClCompile Include="src\FCollada\FUtils\FUSemaphore.cpp" />
+    <ClCompile Include="src\FCollada\FUtils\FUStringBuilder.cpp" />
+    <ClCompile Include="src\FCollada\FUtils\FUStringBuilderTest.cpp" />
+    <ClCompile Include="src\FCollada\FUtils\FUStringConversion.cpp" />
+    <ClCompile Include="src\FCollada\FUtils\FUStringConversionTest.cpp" />
+    <ClCompile Include="src\FCollada\FUtils\FUStringTest.cpp" />
+    <ClCompile Include="src\FCollada\FUtils\FUSynchronizableObject.cpp" />
+    <ClCompile Include="src\FCollada\FUtils\FUTestBed.cpp" />
+    <ClCompile Include="src\FCollada\FUtils\FUThread.cpp" />
+    <ClCompile Include="src\FCollada\FUtils\FUTracker.cpp" />
+    <ClCompile Include="src\FCollada\FUtils\FUUniqueStringMap.cpp" />
+    <ClCompile Include="src\FCollada\FUtils\FUUniqueStringMapTest.cpp" />
+    <ClCompile Include="src\FCollada\FUtils\FUUri.cpp" />
+    <ClCompile Include="src\FCollada\FUtils\FUXmlDocument.cpp" />
+    <ClCompile Include="src\FCollada\FUtils\FUXmlParser.cpp" />
+    <ClCompile Include="src\FCollada\FUtils\FUXmlWriter.cpp" />
+    <ClCompile Include="src\FCollada\LibXML\c14n.c" />
+    <ClCompile Include="src\FCollada\LibXML\catalog.c" />
+    <ClCompile Include="src\FCollada\LibXML\chvalid.c" />
+    <ClCompile Include="src\FCollada\LibXML\debugXML.c" />
+    <ClCompile Include="src\FCollada\LibXML\dict.c" />
+    <ClCompile Include="src\FCollada\LibXML\DOCBparser.c" />
+    <ClCompile Include="src\FCollada\LibXML\encoding.c" />
+    <ClCompile Include="src\FCollada\LibXML\entities.c" />
+    <ClCompile Include="src\FCollada\LibXML\error.c" />
+    <ClCompile Include="src\FCollada\LibXML\globals.c" />
+    <ClCompile Include="src\FCollada\LibXML\hash.c" />
+    <ClCompile Include="src\FCollada\LibXML\HTMLparser.c" />
+    <ClCompile Include="src\FCollada\LibXML\HTMLtree.c" />
+    <ClCompile Include="src\FCollada\LibXML\legacy.c" />
+    <ClCompile Include="src\FCollada\LibXML\list.c" />
+    <ClCompile Include="src\FCollada\LibXML\nanoftp.c" />
+    <ClCompile Include="src\FCollada\LibXML\nanohttp.c" />
+    <ClCompile Include="src\FCollada\LibXML\parser.c" />
+    <ClCompile Include="src\FCollada\LibXML\parserInternals.c" />
+    <ClCompile Include="src\FCollada\LibXML\pattern.c" />
+    <ClCompile Include="src\FCollada\LibXML\relaxng.c" />
+    <ClCompile Include="src\FCollada\LibXML\SAX.c" />
+    <ClCompile Include="src\FCollada\LibXML\SAX2.c" />
+    <ClCompile Include="src\FCollada\LibXML\threads.c" />
+    <ClCompile Include="src\FCollada\LibXML\tree.c" />
+    <ClCompile Include="src\FCollada\LibXML\uri.c" />
+    <ClCompile Include="src\FCollada\LibXML\valid.c" />
+    <ClCompile Include="src\FCollada\LibXML\xinclude.c" />
+    <ClCompile Include="src\FCollada\LibXML\xlink.c" />
+    <ClCompile Include="src\FCollada\LibXML\xmlIO.c" />
+    <ClCompile Include="src\FCollada\LibXML\xmlmemory.c" />
+    <ClCompile Include="src\FCollada\LibXML\xmlmodule.c" />
+    <ClCompile Include="src\FCollada\LibXML\xmlreader.c" />
+    <ClCompile Include="src\FCollada\LibXML\xmlregexp.c" />
+    <ClCompile Include="src\FCollada\LibXML\xmlsave.c" />
+    <ClCompile Include="src\FCollada\LibXML\xmlstring.c" />
+    <ClCompile Include="src\FCollada\LibXML\xmlunicode.c" />
+    <ClCompile Include="src\FCollada\LibXML\xmlwriter.c" />
+    <ClCompile Include="src\Input\ControlModuleMapping.cpp" />
+    <ClCompile Include="src\Input\InputListener.cpp" />
+    <ClCompile Include="src\Input\InputManager.cpp" />
+    <ClCompile Include="src\Input\SystemInputListener.cpp" />
+    <ClCompile Include="src\Main.cpp" />
+    <ClCompile Include="src\Models\ColladaModel.cpp" />
+    <ClCompile Include="src\Models\ModelLoader.cpp" />
+    <ClCompile Include="src\Models\SketchUpModel.cpp" />
+    <ClCompile Include="src\Models\SupermarketModel.cpp" />
+    <ClCompile Include="src\MultiRange.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\Scene.cpp" />
+    <ClCompile Include="src\SceneObject.cpp" />
+    <ClCompile Include="src\Shaders\GLSLProgramObject.cpp" />
+    <ClCompile Include="src\Slide\InputVisualizer.cpp" />
+    <ClCompile Include="src\Slide\Slide.cpp" />
+    <ClCompile Include="src\Slide\Slide0.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\Slide\SlideTools.cpp" />
+    <ClCompile Include="src\Wm5\Wm5ApprGaussPointsFit3.cpp" />
+    <ClCompile Include="src\Wm5\Wm5Assert.cpp" />
+    <ClCompile Include="src\Wm5\Wm5ContBox3.cpp" />
+    <ClCompile Include="src\Wm5\Wm5ContMinBox2.cpp" />
+    <ClCompile Include="src\Wm5\Wm5ContMinBox3.cpp" />
+    <ClCompile Include="src\Wm5\Wm5ConvexHull.cpp" />
+    <ClCompile Include="src\Wm5\Wm5ConvexHull1.cpp" />
+    <ClCompile Include="src\Wm5\Wm5ConvexHull2.cpp" />
+    <ClCompile Include="src\Wm5\Wm5ConvexHull3.cpp" />
+    <ClCompile Include="src\Wm5\Wm5CorePCH.cpp" />
+    <ClCompile Include="src\Wm5\Wm5Distance.cpp" />
+    <ClCompile Include="src\Wm5\Wm5DistSegment3Segment3.cpp" />
+    <ClCompile Include="src\Wm5\Wm5EigenDecomposition.cpp" />
+    <ClCompile Include="src\Wm5\Wm5Endian.cpp" />
+    <ClCompile Include="src\Wm5\Wm5FileIO.cpp" />
+    <ClCompile Include="src\Wm5\Wm5Intersector.cpp" />
+    <ClCompile Include="src\Wm5\Wm5Intersector1.cpp" />
+    <ClCompile Include="src\Wm5\Wm5IntrLine2Triangle2.cpp" />
+    <ClCompile Include="src\Wm5\Wm5IntrLine3Plane3.cpp" />
+    <ClCompile Include="src\Wm5\Wm5IntrSegment2Triangle2.cpp" />
+    <ClCompile Include="src\Wm5\Wm5IntrTriangle2Triangle2.cpp" />
+    <ClCompile Include="src\Wm5\Wm5IntrTriangle3Triangle3.cpp" />
+    <ClCompile Include="src\Wm5\Wm5Math.cpp" />
+    <ClCompile Include="src\Wm5\Wm5MathematicsPCH.cpp" />
+    <ClCompile Include="src\Wm5\Wm5Matrix2.cpp" />
+    <ClCompile Include="src\Wm5\Wm5Matrix3.cpp" />
+    <ClCompile Include="src\Wm5\Wm5Matrix4.cpp" />
+    <ClCompile Include="src\Wm5\Wm5Memory.cpp" />
+    <ClCompile Include="src\Wm5\Wm5Mutex.cpp" />
+    <ClCompile Include="src\Wm5\Wm5Quaternion.cpp" />
+    <ClCompile Include="src\Wm5\Wm5Query.cpp" />
+    <ClCompile Include="src\Wm5\Wm5SingularValueDecomposition.cpp" />
+    <ClCompile Include="src\Wm5\Wm5Vector2.cpp" />
+    <ClCompile Include="src\Wm5\Wm5Vector3.cpp" />
+    <ClCompile Include="src\Wm5\Wm5Vector4.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="glfw\internal.h" />
+    <ClInclude Include="glfw\win32\platform.h" />
+    <ClInclude Include="include\GL\glfw.h" />
+    <ClInclude Include="src\Arcball\matrix3x3.h" />
+    <ClInclude Include="src\Arcball\quaternion.h" />
+    <ClInclude Include="src\Arcball\trackball_bell.h" />
+    <ClInclude Include="src\Arcball\vector3.h" />
+    <ClInclude Include="src\Bamboo\Bamboo.h" />
+    <ClInclude Include="src\Bamboo\Finger.h" />
+    <ClInclude Include="src\Bamboo\System.h" />
+    <ClInclude Include="src\ControlModes\ClassicMode.h" />
+    <ClInclude Include="src\ControlModes\ControlMode.h" />
+    <ClInclude Include="src\ControlModes\DepthIntervalsMode.h" />
+    <ClInclude Include="src\ControlModes\InputTestMode.h" />
+    <ClInclude Include="src\ControlModes\UnderCursorMode.h" />
+    <ClInclude Include="src\ControlModules\ControlModule.h" />
+    <ClInclude Include="src\ControlModules\TwoAxisValuatorModule.h" />
+    <ClInclude Include="src\ControlModules\UnderCursorTranslationModule.h" />
+    <ClInclude Include="src\ControlModules\UnrealCameraModule.h" />
+    <ClInclude Include="src\FCollada\FArchiveXML\FArchiveXML.h" />
+    <ClInclude Include="src\FCollada\FArchiveXML\FAXColladaParser.h" />
+    <ClInclude Include="src\FCollada\FArchiveXML\FAXColladaWriter.h" />
+    <ClInclude Include="src\FCollada\FArchiveXML\FAXStructures.h" />
+    <ClInclude Include="src\FCollada\FArchiveXML\StdAfx.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDAnimated.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDAnimation.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDAnimationChannel.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDAnimationClip.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDAnimationClipTools.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDAnimationCurve.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDAnimationCurveTools.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDAnimationKey.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDAnimationMultiCurve.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDAsset.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDCamera.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDController.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDControllerInstance.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDControllerTools.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDEffect.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDEffectCode.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDEffectParameter.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDEffectParameter.hpp" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDEffectParameterFactory.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDEffectParameterSampler.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDEffectParameterSurface.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDEffectPass.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDEffectPassShader.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDEffectPassState.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDEffectProfile.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDEffectProfileFX.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDEffectStandard.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDEffectTechnique.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDEffectTools.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDEmitter.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDEmitterInstance.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDEmitterObject.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDEmitterParticle.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDEntity.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDEntityInstance.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDEntityReference.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDExternalReferenceManager.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDExtra.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDForceDeflector.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDForceDrag.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDForceField.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDForceGravity.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDForcePBomb.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDForceTyped.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDForceWind.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDGeometry.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDGeometryInstance.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDGeometryMesh.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDGeometryNURBSSurface.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDGeometryPolygons.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDGeometryPolygonsInput.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDGeometryPolygonsTools.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDGeometrySource.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDGeometrySpline.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDImage.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDLibrary.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDLibrary.hpp" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDLight.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDLightTools.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDMaterial.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDMaterialInstance.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDMorphController.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDObject.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDObjectWithId.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDocument.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDocumentTools.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDParameterAnimatable.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDParameterAnimatable.hpp" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDParticleEmitter.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDParticleModifier.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDPhysicsAnalyticalGeometry.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDPhysicsForceFieldInstance.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDPhysicsMaterial.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDPhysicsModel.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDPhysicsModelInstance.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDPhysicsRigidBody.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDPhysicsRigidBodyInstance.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDPhysicsRigidBodyParameters.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDPhysicsRigidConstraint.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDPhysicsRigidConstraintInstance.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDPhysicsScene.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDPhysicsShape.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDPlaceHolder.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDSceneNode.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDSceneNodeIterator.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDSceneNodeIterator.hpp" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDSceneNodeTools.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDSkinController.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDTargetedEntity.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDTexture.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDTransform.h" />
+    <ClInclude Include="src\FCollada\FCDocument\FCDVersion.h" />
+    <ClInclude Include="src\FCollada\FCollada.h" />
+    <ClInclude Include="src\FCollada\FColladaPlugin.h" />
+    <ClInclude Include="src\FCollada\FMath\FMAllocator.h" />
+    <ClInclude Include="src\FCollada\FMath\FMAngleAxis.h" />
+    <ClInclude Include="src\FCollada\FMath\FMArray.h" />
+    <ClInclude Include="src\FCollada\FMath\FMArrayPointer.h" />
+    <ClInclude Include="src\FCollada\FMath\FMath.h" />
+    <ClInclude Include="src\FCollada\FMath\FMColor.h" />
+    <ClInclude Include="src\FCollada\FMath\FMFloat.h" />
+    <ClInclude Include="src\FCollada\FMath\FMInteger.h" />
+    <ClInclude Include="src\FCollada\FMath\FMInterpolation.h" />
+    <ClInclude Include="src\FCollada\FMath\FMLookAt.h" />
+    <ClInclude Include="src\FCollada\FMath\FMMatrix33.h" />
+    <ClInclude Include="src\FCollada\FMath\FMMatrix44.h" />
+    <ClInclude Include="src\FCollada\FMath\FMQuaternion.h" />
+    <ClInclude Include="src\FCollada\FMath\FMRandom.h" />
+    <ClInclude Include="src\FCollada\FMath\FMSkew.h" />
+    <ClInclude Include="src\FCollada\FMath\FMSort.h" />
+    <ClInclude Include="src\FCollada\FMath\FMTree.h" />
+    <ClInclude Include="src\FCollada\FMath\FMVector2.h" />
+    <ClInclude Include="src\FCollada\FMath\FMVector3.h" />
+    <ClInclude Include="src\FCollada\FMath\FMVector4.h" />
+    <ClInclude Include="src\FCollada\FMath\FMVolume.h" />
+    <ClInclude Include="src\FCollada\FMath\StdAfx.h" />
+    <ClInclude Include="src\FCollada\FUtils\FUAssert.h" />
+    <ClInclude Include="src\FCollada\FUtils\FUBase64.h" />
+    <ClInclude Include="src\FCollada\FUtils\FUBoundingBox.h" />
+    <ClInclude Include="src\FCollada\FUtils\FUBoundingSphere.h" />
+    <ClInclude Include="src\FCollada\FUtils\FUCrc32.h" />
+    <ClInclude Include="src\FCollada\FUtils\FUCriticalSection.h" />
+    <ClInclude Include="src\FCollada\FUtils\FUDaeEnum.h" />
+    <ClInclude Include="src\FCollada\FUtils\FUDaeEnumSyntax.h" />
+    <ClInclude Include="src\FCollada\FUtils\FUDaeSyntax.h" />
+    <ClInclude Include="src\FCollada\FUtils\FUDateTime.h" />
+    <ClInclude Include="src\FCollada\FUtils\FUDebug.h" />
+    <ClInclude Include="src\FCollada\FUtils\FUError.h" />
+    <ClInclude Include="src\FCollada\FUtils\FUErrorLog.h" />
+    <ClInclude Include="src\FCollada\FUtils\FUEvent.h" />
+    <ClInclude Include="src\FCollada\FUtils\FUFile.h" />
+    <ClInclude Include="src\FCollada\FUtils\FUFileManager.h" />
+    <ClInclude Include="src\FCollada\FUtils\FUFunctor.h" />
+    <ClInclude Include="src\FCollada\FUtils\FULogFile.h" />
+    <ClInclude Include="src\FCollada\FUtils\FUObject.h" />
+    <ClInclude Include="src\FCollada\FUtils\FUObjectType.h" />
+    <ClInclude Include="src\FCollada\FUtils\FUParameter.h" />
+    <ClInclude Include="src\FCollada\FUtils\FUParameter.hpp" />
+    <ClInclude Include="src\FCollada\FUtils\FUParameterizable.h" />
+    <ClInclude Include="src\FCollada\FUtils\FUPlugin.h" />
+    <ClInclude Include="src\FCollada\FUtils\FUPluginManager.h" />
+    <ClInclude Include="src\FCollada\FUtils\FUSemaphore.h" />
+    <ClInclude Include="src\FCollada\FUtils\FUSingleton.h" />
+    <ClInclude Include="src\FCollada\FUtils\FUString.h" />
+    <ClInclude Include="src\FCollada\FUtils\FUStringBuilder.h" />
+    <ClInclude Include="src\FCollada\FUtils\FUStringBuilder.hpp" />
+    <ClInclude Include="src\FCollada\FUtils\FUStringConversion.h" />
+    <ClInclude Include="src\FCollada\FUtils\FUStringConversion.hpp" />
+    <ClInclude Include="src\FCollada\FUtils\FUSynchronizableObject.h" />
+    <ClInclude Include="src\FCollada\FUtils\FUTestBed.h" />
+    <ClInclude Include="src\FCollada\FUtils\FUThread.h" />
+    <ClInclude Include="src\FCollada\FUtils\FUtils.h" />
+    <ClInclude Include="src\FCollada\FUtils\FUTracker.h" />
+    <ClInclude Include="src\FCollada\FUtils\FUUniqueStringMap.h" />
+    <ClInclude Include="src\FCollada\FUtils\FUUri.h" />
+    <ClInclude Include="src\FCollada\FUtils\FUXmlDocument.h" />
+    <ClInclude Include="src\FCollada\FUtils\FUXmlParser.h" />
+    <ClInclude Include="src\FCollada\FUtils\FUXmlWriter.h" />
+    <ClInclude Include="src\FCollada\FUtils\Platforms.h" />
+    <ClInclude Include="src\FCollada\FUtils\StdAfx.h" />
+    <ClInclude Include="src\FCollada\LibXML\acconfig.h" />
+    <ClInclude Include="src\FCollada\LibXML\config-ps3.h" />
+    <ClInclude Include="src\FCollada\LibXML\config.h" />
+    <ClInclude Include="src\FCollada\LibXML\elfgcchack.h" />
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\c14n.h" />
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\catalog.h" />
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\chvalid.h" />
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\debugXML.h" />
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\dict.h" />
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\DOCBparser.h" />
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\encoding.h" />
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\entities.h" />
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\globals.h" />
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\hash.h" />
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\HTMLparser.h" />
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\HTMLtree.h" />
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\list.h" />
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\nanoftp.h" />
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\nanohttp.h" />
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\parser.h" />
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\parserInternals.h" />
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\pattern.h" />
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\relaxng.h" />
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\SAX.h" />
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\SAX2.h" />
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\schemasInternals.h" />
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\threads.h" />
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\tree.h" />
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\uri.h" />
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\valid.h" />
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\xinclude.h" />
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\xlink.h" />
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\xmlautomata.h" />
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\xmlerror.h" />
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\xmlexports.h" />
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\xmlIO.h" />
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\xmlmemory.h" />
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\xmlmodule.h" />
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\xmlreader.h" />
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\xmlregexp.h" />
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\xmlsave.h" />
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\xmlschemas.h" />
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\xmlschemastypes.h" />
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\xmlstring.h" />
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\xmlunicode.h" />
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\xmlversion.h" />
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\xmlwriter.h" />
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\xpath.h" />
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\xpathInternals.h" />
+    <ClInclude Include="src\FCollada\LibXML\include\libxml\xpointer.h" />
+    <ClInclude Include="src\FCollada\LibXML\include\win32config.h" />
+    <ClInclude Include="src\FCollada\LibXML\include\wsockcompat.h" />
+    <ClInclude Include="src\FCollada\LibXML\libxml.h" />
+    <ClInclude Include="src\FCollada\StdAfx.h" />
+    <ClInclude Include="src\Globals.h" />
+    <ClInclude Include="src\Input\ControlModuleMapping.h" />
+    <ClInclude Include="src\Input\InputListener.h" />
+    <ClInclude Include="src\Input\InputManager.h" />
+    <ClInclude Include="src\Input\SystemInputListener.h" />
+    <ClInclude Include="src\Models\ColladaModel.h" />
+    <ClInclude Include="src\Models\ModelLoader.h" />
+    <ClInclude Include="src\Models\SketchUpModel.h" />
+    <ClInclude Include="src\Models\SupermarketModel.h" />
+    <ClInclude Include="src\MultiRange.h" />
+    <ClInclude Include="src\Scene.h" />
+    <ClInclude Include="src\SceneObject.h" />
+    <ClInclude Include="src\Shaders\GLSLProgramObject.h" />
+    <ClInclude Include="src\Shaders\nvSDKPath.h" />
+    <ClInclude Include="src\Shaders\nvShaderUtils.h" />
+    <ClInclude Include="src\Slide\InputVisualizer.h" />
+    <ClInclude Include="src\Slide\Slide.h" />
+    <ClInclude Include="src\Slide\Slide0.h" />
+    <ClInclude Include="src\Slide\SlideTools.h" />
+    <ClInclude Include="src\Vector2.h" />
+    <ClInclude Include="src\Vector2.hpp" />
+    <ClInclude Include="src\Wm5\Wm5ApprGaussPointsFit3.h" />
+    <ClInclude Include="src\Wm5\Wm5Assert.h" />
+    <ClInclude Include="src\Wm5\Wm5Box2.h" />
+    <ClInclude Include="src\Wm5\Wm5Box3.h" />
+    <ClInclude Include="src\Wm5\Wm5ContBox3.h" />
+    <ClInclude Include="src\Wm5\Wm5ContMinBox2.h" />
+    <ClInclude Include="src\Wm5\Wm5ContMinBox3.h" />
+    <ClInclude Include="src\Wm5\Wm5ConvexHull.h" />
+    <ClInclude Include="src\Wm5\Wm5ConvexHull1.h" />
+    <ClInclude Include="src\Wm5\Wm5ConvexHull2.h" />
+    <ClInclude Include="src\Wm5\Wm5ConvexHull3.h" />
+    <ClInclude Include="src\Wm5\Wm5CoreLIB.h" />
+    <ClInclude Include="src\Wm5\Wm5CorePCH.h" />
+    <ClInclude Include="src\Wm5\Wm5Distance.h" />
+    <ClInclude Include="src\Wm5\Wm5DistSegment3Segment3.h" />
+    <ClInclude Include="src\Wm5\Wm5EdgeKey.h" />
+    <ClInclude Include="src\Wm5\Wm5EigenDecomposition.h" />
+    <ClInclude Include="src\Wm5\Wm5Endian.h" />
+    <ClInclude Include="src\Wm5\Wm5FileIO.h" />
+    <ClInclude Include="src\Wm5\Wm5GMatrix.h" />
+    <ClInclude Include="src\Wm5\Wm5GVector.h" />
+    <ClInclude Include="src\Wm5\Wm5Integer.h" />
+    <ClInclude Include="src\Wm5\Wm5Intersector.h" />
+    <ClInclude Include="src\Wm5\Wm5Intersector1.h" />
+    <ClInclude Include="src\Wm5\Wm5IntrLine2Triangle2.h" />
+    <ClInclude Include="src\Wm5\Wm5IntrLine3Plane3.h" />
+    <ClInclude Include="src\Wm5\Wm5IntrSegment2Triangle2.h" />
+    <ClInclude Include="src\Wm5\Wm5IntrTriangle2Triangle2.h" />
+    <ClInclude Include="src\Wm5\Wm5IntrTriangle3Triangle3.h" />
+    <ClInclude Include="src\Wm5\Wm5Line2.h" />
+    <ClInclude Include="src\Wm5\Wm5Line3.h" />
+    <ClInclude Include="src\Wm5\Wm5Math.h" />
+    <ClInclude Include="src\Wm5\Wm5MathematicsLIB.h" />
+    <ClInclude Include="src\Wm5\Wm5MathematicsPCH.h" />
+    <ClInclude Include="src\Wm5\Wm5Matrix2.h" />
+    <ClInclude Include="src\Wm5\Wm5Matrix3.h" />
+    <ClInclude Include="src\Wm5\Wm5Matrix4.h" />
+    <ClInclude Include="src\Wm5\Wm5Memory.h" />
+    <ClInclude Include="src\Wm5\Wm5Mutex.h" />
+    <ClInclude Include="src\Wm5\Wm5MutexType.h" />
+    <ClInclude Include="src\Wm5\Wm5Plane3.h" />
+    <ClInclude Include="src\Wm5\Wm5Quaternion.h" />
+    <ClInclude Include="src\Wm5\Wm5Query.h" />
+    <ClInclude Include="src\Wm5\Wm5Query2.h" />
+    <ClInclude Include="src\Wm5\Wm5Query2Filtered.h" />
+    <ClInclude Include="src\Wm5\Wm5Query2Int64.h" />
+    <ClInclude Include="src\Wm5\Wm5Query2Integer.h" />
+    <ClInclude Include="src\Wm5\Wm5Query2Rational.h" />
+    <ClInclude Include="src\Wm5\Wm5Query3.h" />
+    <ClInclude Include="src\Wm5\Wm5Query3Filtered.h" />
+    <ClInclude Include="src\Wm5\Wm5Query3Int64.h" />
+    <ClInclude Include="src\Wm5\Wm5Query3Integer.h" />
+    <ClInclude Include="src\Wm5\Wm5Query3Rational.h" />
+    <ClInclude Include="src\Wm5\Wm5Rational.h" />
+    <ClInclude Include="src\Wm5\Wm5RVector.h" />
+    <ClInclude Include="src\Wm5\Wm5RVector2.h" />
+    <ClInclude Include="src\Wm5\Wm5RVector3.h" />
+    <ClInclude Include="src\Wm5\Wm5Segment2.h" />
+    <ClInclude Include="src\Wm5\Wm5Segment3.h" />
+    <ClInclude Include="src\Wm5\Wm5SingularValueDecomposition.h" />
+    <ClInclude Include="src\Wm5\Wm5Table.h" />
+    <ClInclude Include="src\Wm5\Wm5Triangle2.h" />
+    <ClInclude Include="src\Wm5\Wm5Triangle3.h" />
+    <ClInclude Include="src\Wm5\Wm5Tuple.h" />
+    <ClInclude Include="src\Wm5\Wm5Vector2.h" />
+    <ClInclude Include="src\Wm5\Wm5Vector3.h" />
+    <ClInclude Include="src\Wm5\Wm5Vector4.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Slide.cd" />
+    <None Include="src\Shaders\depth_peel_fragment.glsl" />
+    <None Include="src\Shaders\depth_peel_vertex.glsl" />
+    <None Include="src\Wm5\Wm5Box2.inl" />
+    <None Include="src\Wm5\Wm5Box3.inl" />
+    <None Include="src\Wm5\Wm5EdgeKey.inl" />
+    <None Include="src\Wm5\Wm5FileIO.inl" />
+    <None Include="src\Wm5\Wm5GMatrix.inl" />
+    <None Include="src\Wm5\Wm5GVector.inl" />
+    <None Include="src\Wm5\Wm5Integer.inl" />
+    <None Include="src\Wm5\Wm5Line2.inl" />
+    <None Include="src\Wm5\Wm5Line3.inl" />
+    <None Include="src\Wm5\Wm5Math.inl" />
+    <None Include="src\Wm5\Wm5Matrix2.inl" />
+    <None Include="src\Wm5\Wm5Matrix3.inl" />
+    <None Include="src\Wm5\Wm5Matrix4.inl" />
+    <None Include="src\Wm5\Wm5Memory.inl" />
+    <None Include="src\Wm5\Wm5Plane3.inl" />
+    <None Include="src\Wm5\Wm5Quaternion.inl" />
+    <None Include="src\Wm5\Wm5Query2.inl" />
+    <None Include="src\Wm5\Wm5Query2Filtered.inl" />
+    <None Include="src\Wm5\Wm5Query2Int64.inl" />
+    <None Include="src\Wm5\Wm5Query2Integer.inl" />
+    <None Include="src\Wm5\Wm5Query2Rational.inl" />
+    <None Include="src\Wm5\Wm5Query3.inl" />
+    <None Include="src\Wm5\Wm5Query3Filtered.inl" />
+    <None Include="src\Wm5\Wm5Query3Int64.inl" />
+    <None Include="src\Wm5\Wm5Query3Integer.inl" />
+    <None Include="src\Wm5\Wm5Query3Rational.inl" />
+    <None Include="src\Wm5\Wm5Rational.inl" />
+    <None Include="src\Wm5\Wm5RVector.inl" />
+    <None Include="src\Wm5\Wm5RVector2.inl" />
+    <None Include="src\Wm5\Wm5RVector3.inl" />
+    <None Include="src\Wm5\Wm5Segment2.inl" />
+    <None Include="src\Wm5\Wm5Segment3.inl" />
+    <None Include="src\Wm5\Wm5Table.inl" />
+    <None Include="src\Wm5\Wm5Triangle2.inl" />
+    <None Include="src\Wm5\Wm5Triangle3.inl" />
+    <None Include="src\Wm5\Wm5Tuple.inl" />
+    <None Include="src\Wm5\Wm5Vector2.inl" />
+    <None Include="src\Wm5\Wm5Vector3.inl" />
+    <None Include="src\Wm5\Wm5Vector4.inl" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCTargetsPath Condition="'$(VCTargetsPath11)' != '' and '$(VSVersion)' == '' and '$(VisualStudioVersion)' == ''">$(VCTargetsPath11)</VCTargetsPath>
+  </PropertyGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{487F9313-6BFD-41D6-93D0-6F29AFA29BFB}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Slide</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(ProjectDir)include;$(ProjectDir)glfw;$(ProjectDir)glfw\win32;$(ProjectDir)src\FCollada;$(ProjectDir)src\FCollada\LibXML\include;$(ProjectDir)..\Libraries\gl;$(ProjectDir)..\Libraries\Opcode_win32;$(ProjectDir)..\Libraries\irrKlang;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)\..\Libraries\gl;$(ProjectDir)\..\Libraries\Opcode_win32;$(ProjectDir)\..\Libraries\irrKlang;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(ProjectDir)include;$(ProjectDir)glfw;$(ProjectDir)glfw\win32;$(ProjectDir)src\FCollada;$(ProjectDir)src\FCollada\LibXML\include;$(ProjectDir)..\Libraries\gl;$(ProjectDir)..\Libraries\Opcode_win32;$(ProjectDir)..\Libraries\irrKlang;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)\..\Libraries\gl;$(ProjectDir)\..\Libraries\Opcode_win32;$(ProjectDir)\..\Libraries\irrKlang;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>OpenGL32.lib;glu32.lib;glew32s.lib;Opcode.lib;irrKlang.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>LIBCMT.lib</IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>OpenGL32.lib;glu32.lib;glew32s.lib;Opcode.lib;irrKlang.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>LIBCMT.lib</IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

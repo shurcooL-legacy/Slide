@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="InputTestMode" Collapsed="true">
+    <Position X="3" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAgABpADBAAQElAAIgDYBSFSCEEUBAWjAAgkEByiAA=</HashCode>
+      <FileName>src\ControlModes\InputTestMode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ControlMode" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAQAAAQEAAAAACAAAAABAAABAAgAYgAAAAAAA=</HashCode>
+      <FileName>src\ControlModes\ControlMode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnderCursorMode" Collapsed="true">
+    <Position X="5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AiAiAghABAAAAEBAAIADABCAACCUWBAUiAAgCQgQAgA=</HashCode>
+      <FileName>src\ControlModes\UnderCursorMode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ControlModule" Collapsed="true">
+    <Position X="10.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAFgAAQAAAkACAAAACIAAICCAZAFAAAABAgBAAAgAQ=</HashCode>
+      <FileName>src\ControlModules\ControlModule.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TwoAxisValuatorModule" Collapsed="true">
+    <Position X="12.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAgAAAAAAAAAAICACAAABAQAAAgAAAAAAA=</HashCode>
+      <FileName>src\ControlModules\TwoAxisValuatorModule.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnrealCameraModule" Collapsed="true">
+    <Position X="10.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAIAgAAAAAAAAAAIiAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>src\ControlModules\UnrealCameraModule.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnderCursorTranslationModule" Collapsed="true">
+    <Position X="8.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAIAAAAkAAAABACAAAICAAAAQAAABAAgAAAAAAA=</HashCode>
+      <FileName>src\ControlModules\UnderCursorTranslationModule.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DepthIntervalsMode" Collapsed="true">
+    <Position X="4" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAgQDJQCBAAQUEAAQgDIBSBSAAAQBAEiAAgEEAQiAA=</HashCode>
+      <FileName>src\ControlModes\DepthIntervalsMode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassicMode" Collapsed="true">
+    <Position X="1" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAgAAAAEAAAAEAAAIADABCEACAAABAAmAAgAAgAAgA=</HashCode>
+      <FileName>src\ControlModes\ClassicMode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>
