@@ -53,12 +53,12 @@ void UnderCursorTranslationModule::ModuleProcessSlider(InputManager::VirtualInpu
 		{
 			if (!IsButtonPressed(1) ^ GetDebugSwitch(DebugSwitch::DEBUG_SWITCH_SLIDE_RESOLUTION_OFF))
 			{
-				if (0 < MovedAmount)
+				if (0 > MovedAmount)
 				{
 					//PlayDepthPopSound(Wm5::Vector3d::ZERO != m_Slide.SnapOrtho(Slide::Back, Slide::NonColliding, 2));
 					PlayDepthPopSound(m_Slide.NewSnapC(Slide::BackNextLevel));
 				}
-				else if (0 > MovedAmount)
+				else if (0 < MovedAmount)
 				{
 					//PlayDepthPopSound(Wm5::Vector3d::ZERO != m_Slide.SnapOrtho(Slide::Front, Slide::NonColliding, 1));
 					PlayDepthPopSound(m_Slide.NewSnapB(Slide::Front, Slide::NonColliding));
