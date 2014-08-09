@@ -17,7 +17,13 @@ void SystemInputListener::ProcessButton(InputManager::InputId ButtonId, bool Pre
 		{
 			switch (ButtonId.Id) {
 			case GLFW_KEY_ESC:
-				KeepRunning = false;
+				if (nullptr == MyControlMode->GetControlModuleMapping().GetActiveModule()) {
+					if (MySlide0->GetSelectedObjectId()) {
+						MySlide0->SetSelectedObjectId(0);
+					} else {
+						KeepRunning = false;
+					}
+				}
 				break;
 			case '1': case '2': case '3': case '4': case '5': case '6': case '7': case '8': case '9': case '0':
 				Scene::InitializeScene(ButtonId.Id - '1' + 1 + ((glfwGetKey(GLFW_KEY_LSHIFT) || glfwGetKey(GLFW_KEY_RSHIFT)) ? 10 : 0));

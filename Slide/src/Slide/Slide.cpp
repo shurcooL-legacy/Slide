@@ -428,11 +428,11 @@ m_SlidingConstraint.Normal = Wm5::Vector3d::ZERO;
 
 	SetSelectedObjectId(NewSelectedObject);
 
-	uint32 Triangle = cPixel[3] << 8 | cPixel[2];
+//uint32 Triangle = cPixel[3] << 8 | cPixel[2];
 //if (MySlide->GetSelectedObjectId()) MySlide->GetSelectedObject().m_oIntersectingTris.insert(Triangle);
 
 	if (GetSelectedObjectId()) {
-		//m_OriginalSelectedObjectPosition = MySlide->GetSelectedObject().GetPosition();
+		m_OriginalSelectedObjectPosition = GetSelectedObject().GetPosition();
 
 		//printf("  selected model #%d at %d, %d, triangle = %d.\n", GetSelectedObjectId(), PositionX, PositionY, Triangle);
 

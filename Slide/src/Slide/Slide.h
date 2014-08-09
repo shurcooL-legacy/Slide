@@ -38,6 +38,7 @@ public:
 
 	Wm5::Vector3d	m_CursorRayDirection;
 	Wm5::Vector3d	m_UnderCursorPosition;
+	Wm5::Vector3d	m_OriginalSelectedObjectPosition;
 
 	std::vector<std::pair<std::pair<uint16, uint16>, std::pair<uint16, uint16>>> m_IntersectingPairs;
 

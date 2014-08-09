@@ -7,7 +7,7 @@ DepthIntervalsMode::DepthIntervalsMode()
 	  m_ControlModuleMapping()
 {
 	{
-		std::vector<InputManager::InputId> ButtonMappings; ButtonMappings.push_back(InputManager::InputId(1000, GLFW_MOUSE_BUTTON_LEFT)); ButtonMappings.push_back(InputManager::InputId(0, GLFW_KEY_LALT));
+		std::vector<InputManager::InputId> ButtonMappings; ButtonMappings.push_back(InputManager::InputId(1000, GLFW_MOUSE_BUTTON_LEFT)); ButtonMappings.push_back(InputManager::InputId(0, GLFW_KEY_LALT)); ButtonMappings.push_back(InputManager::InputId(0, GLFW_KEY_ESC));
 		std::vector<InputManager::InputId> SliderMappings; SliderMappings.push_back(InputManager::InputId(1000, 2));
 		std::vector<InputManager::InputId> AxisMappings; AxisMappings.push_back(InputManager::InputId(1000, 0)); AxisMappings.push_back(InputManager::InputId(1000, 1));
 		std::vector<InputManager::InputId> PositiveConstraints;

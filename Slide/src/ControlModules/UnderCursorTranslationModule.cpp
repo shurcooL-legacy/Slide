@@ -1,7 +1,7 @@
 #include "../Globals.h"
 
 UnderCursorTranslationModule::UnderCursorTranslationModule(Slide & Slide)
-	: ControlModule(2, 1, 2),
+	: ControlModule(3, 1, 2),
 	  m_TranslationAllowed(false),
 	  m_Slide(Slide)
 {
@@ -32,6 +32,14 @@ void UnderCursorTranslationModule::ModuleProcessButton(InputManager::VirtualInpu
 	{
 		m_Slide.PickModelAndComputeUnderCursorPositionAndRayDirection(static_cast<int16>(GetAxisState(0).GetPosition()), static_cast<int16>(GetAxisState(1).GetPosition()));
 		m_TranslationAllowed = true;
+	}
+
+	// Pressing Escape during a translate cancels the operation, returning the selected object to its starting position.
+	if (2 == ButtonId && Pressed && MySlide0->GetSelectedObjectId()) {
+		m_TranslationAllowed = false;
+
+		MySlide0->m_UnderCursorPosition += MySlide0->m_OriginalSelectedObjectPosition - MySlide0->GetSelectedObject().GetPosition();
+		MySlide0->GetSelectedObject().ModifyPosition() = MySlide0->m_OriginalSelectedObjectPosition;
 	}
 }
 
