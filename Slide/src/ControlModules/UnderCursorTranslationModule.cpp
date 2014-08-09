@@ -66,7 +66,7 @@ void UnderCursorTranslationModule::ModuleProcessSlider(InputManager::VirtualInpu
 			}
 			else
 			{
-				m_Slide.MoveSelectedObject(m_Slide.ZoomSelectedModel(0.50 * MovedAmount, m_Slide.m_CursorRayDirection));
+				m_Slide.MoveSelectedObject(m_Slide.ZoomSelectedModel(-0.50 * MovedAmount, m_Slide.m_CursorRayDirection));
 			}
 		}
 	}
