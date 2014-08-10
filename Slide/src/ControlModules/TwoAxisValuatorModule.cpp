@@ -58,7 +58,7 @@ void TwoAxisValuatorModule::ModuleProcessSlider(InputManager::VirtualInputId Sli
 			else if (2 == SliderId)
 			{
 				Wm5::Vector3d ToObject = m_Slide.GetSelectedObject().GetPosition() - Wm5::Vector3d(camera.x, camera.y, camera.z); ToObject.Normalize();
-				Wm5::Quaterniond RotateBy = Wm5::Quaterniond(ToObject, -0.10 * MovedAmount);
+				Wm5::Quaterniond RotateBy = Wm5::Quaterniond(ToObject, 0.10 * MovedAmount);
 				m_Slide.GetSelectedObject().ModifyRotation() = RotateBy * m_Slide.GetSelectedObject().ModifyRotation();		// RotateBy first gives us rotations around global axes; RotateBy second gives us rotations around local axes
 				m_Slide.GetSelectedObject().ModifyRotation().Normalize();
 			}
