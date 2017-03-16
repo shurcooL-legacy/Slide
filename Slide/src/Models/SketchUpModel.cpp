@@ -121,6 +121,8 @@ void SketchUpModel::ReserveObject(Scene & Scene)
 		}
 	}
 
+	printf("m_TriangleCount = %d, m_LineCount = %d\n", m_TriangleCount, m_LineCount);
+
 	Scene.ReserveObject(m_TriangleCount, m_LineCount);
 }
 

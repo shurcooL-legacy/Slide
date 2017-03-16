@@ -647,6 +647,21 @@ void Scene::InitializeScene(int SceneNumber)
 
 	MyScene.Reset();
 
+	if (100 == SceneNumber) {
+		//LoadedModels.push_back(new SketchUpModel(ModelsPath + "unit_box.dae"));
+		//LoadedModels.push_back(new SketchUpModel(ModelsPath + "complex_shape.dae"));
+		//LoadedModels.push_back(new SketchUpModel(ModelsPath + "Ship.dae"));
+		LoadedModels.push_back(new SketchUpModel("/Users/Dmitri/Dropbox/Work/2013/GoLand/src/github.com/shurcooL/Hover/vehicle0.dae"));
+
+		for (std::vector<ModelLoader *>::iterator it0 = LoadedModels.begin(); it0 != LoadedModels.end(); ++it0)
+			(*it0)->ReserveObject(MyScene);
+		MyScene.DoneReserving();
+		for (std::vector<ModelLoader *>::iterator it0 = LoadedModels.begin(); it0 != LoadedModels.end(); ++it0)
+			(*it0)->PopulateObject(MyScene);
+		MyScene.Finalize();
+
+		camera.x = 3.413633; camera.y = -3.883973; camera.z = 3.516000; camera.rh = 322.550000; camera.rv = -33.400000;
+	} else
 	if (1 == SceneNumber)
 	{
 		LoadedModels.push_back(new SketchUpModel(ModelsPath + "Table_Chair_Scene/Raised_Platform.dae"));

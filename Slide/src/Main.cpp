@@ -233,7 +233,8 @@ int main(int argc, char * argv[])
 	MySlide0 = new Slide();
 	MyControlMode = new DepthIntervalsMode();
 
-	Scene::InitializeScene(2);
+	//Scene::InitializeScene(2);
+	Scene::InitializeScene(100); // Hover model.
 	//Scene::InitializeScene(1);
 	//Scene::InitializeScene(7);
 	//Scene::InitializeScene(0);
